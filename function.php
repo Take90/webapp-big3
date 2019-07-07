@@ -251,13 +251,6 @@ function sendMail($from,$to,$subject,$comment){
 //================================
 // その他
 //================================
-// function getSessionFlash($key){
-//     if(!empty($_SESSION[$key])){
-//         $data = $_SESSION[$key];
-//         $_SESSION[$key] = '';
-//         return $data;
-//     }
-// }
 //サニタイズ
 function sanitize($str){
     return htmlspecialchars($str,ENT_QUOTES);
